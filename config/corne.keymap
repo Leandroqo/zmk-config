@@ -64,7 +64,7 @@
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
-        };
+
 
                 adj_layer {
 // -----------------------------------------------------------------------------------------
@@ -79,4 +79,6 @@
                                                       &trans   &trans   &trans      &trans   &trans    &trans
                         >;
                 };
+        };
+
 };
