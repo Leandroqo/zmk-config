@@ -40,12 +40,7 @@
         open_vscode: op_vscode {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LG(SPACE)>,
-                <&macro_release>,
-                <&kp V &kp I &kp S &kp U &kp A &kp L &kp SPACE &kp S &kp T &kp U &kp D &kp I &kp O &kp SPACE &kp C &kp O &kp D &kp E>;
-
+            bindings = <&kp V &kp I &kp S &kp U &kp A &kp L &kp SPACE &kp S &kp T &kp U &kp D &kp I &kp O &kp SPACE &kp C &kp O &kp D &kp E>;
             label = "OP_VSCODE";
         };
     };
